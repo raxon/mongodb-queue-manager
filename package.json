@@ -27,7 +27,6 @@
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
     "lint": "eslint . --ext .ts,.tsx",
-    "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
   "author": "Rafał Krzysztofiak r@codeu.io",
