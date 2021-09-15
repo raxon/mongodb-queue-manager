@@ -1,24 +1,24 @@
 {
-  "name": "node-typescript-boilerplate",
-  "version": "0.0.0",
-  "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
+  "name": "mongodb-queue-manager",
+  "version": "0.0.1",
+  "description": "Mongodb queue manager",
   "engines": {
     "node": ">= 14.16 <15"
   },
   "devDependencies": {
-    "@types/jest": "~26.0.23",
-    "@types/node": "~14.14.45",
-    "@typescript-eslint/eslint-plugin": "~4.28.2",
-    "@typescript-eslint/parser": "~4.28.2",
-    "eslint": "~7.30.0",
-    "eslint-config-prettier": "~8.3.0",
-    "eslint-plugin-jest": "~24.3.6",
-    "jest": "~27.0.6",
-    "prettier": "~2.3.2",
-    "rimraf": "~3.0.2",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.9.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "jest": "^27.1.1",
+    "prettier": "^2.4.0",
+    "rimraf": "^3.0.2",
     "ts-jest": "~27.0.3",
-    "tsutils": "~3.21.0",
-    "typescript": "~4.3.5"
+    "tsutils": "^3.21.0",
+    "typescript": "^4.4.2"
   },
   "scripts": {
     "start": "node build/src/main.js",
@@ -30,9 +30,10 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
+  "author": "Rafał Krzysztofiak r@codeu.io",
   "license": "Apache-2.0",
   "dependencies": {
+    "mongodb": "^4.1.1",
     "tslib": "~2.3.0"
   },
   "volta": {
